@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="NoteEntity"
+            type="com.alfrsms.challange4.data.local.note.NoteEntity" />
+    </data>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_item_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp"
+        app:cardMaxElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end">
+                <ImageButton
+                    android:id="@+id/btn_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_edit"/>
+
+                <ImageButton
+                    android:id="@+id/btn_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_delete" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_item_date"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="start"
+                android:text="@string/date"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_item_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:gravity="start"
+                android:text="@{NoteEntity.title}"
+                android:textSize="16sp"
+                android:fontFamily="@font/poppinsbold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_item_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="@{NoteEntity.description}"
+                android:textSize="14sp"
+                android:fontFamily="@font/poppinsbold"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

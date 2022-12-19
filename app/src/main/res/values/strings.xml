@@ -1,0 +1,41 @@
+<resources><string name="app_name">Note App</string>
+<string name="gambar">gambar</string>
+<string name="enter_your_full_name">Enter Your Full Name</string>
+<string name="enter_your_email">Enter Your Email</string>
+<string name="create_password">Create Password</string>
+<string name="confirm_password">Confirm Password</string>
+<string name="register">Register</string>
+<string name="already_have_an_accoout">Already Have An Accoout ?</string>
+<string name="login">Login</string>
+<string name="password">Password</string>
+<string name="email">Email</string>
+<string name="deskripsi">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the .</string>
+<string name="judul">Get things done with TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+<string name="hello_blank_fragment">Hello blank fragment</string>
+<string name="logout">Logout</string>
+<string name="note_does_not_exist">NOTE DOES NOT EXIST</string>
+<string name="add">add</string>
+<string name="title">Judul</string>
+<string name="description">Description</string>
+<string name="submit">Submit</string>
+<string name="delete">Delete</string>
+
+
+<string name="message_undo">Batalkan menghapus item sebelumnya?</string>
+<string name="message_ok">OK</string>
+<string name="cancel">Batal</string>
+<string name="empty">Field can not be blank</string>
+<string name="update">Update</string>
+<string name="change">Ubah</string>
+<string name="save">Simpan</string>
+<string name="yes">Ya</string>
+<string name="no">Tidak</string>
+<string name="message_cancel">Apakah anda ingin membatalkan perubahan pada form?</string>
+<string name="message_delete">Apakah anda yakin ingin menghapus item ini?</string>
+<string name="added">Satu item berhasil ditambahkan</string>
+<string name="changed">Satu item berhasil diubah</string>
+<string name="deleted">Satu item berhasil dihapus</string>
+<string name="date">Tanggal</string>
+<string name="username">Username</string>
+</resources>

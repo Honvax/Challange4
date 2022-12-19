@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#50C2C9</color>
+    <color name="colorSecondary">#55BBAF</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#7F7F7D</color>
+    <color name="statusBar">#8FE1D7</color>
+
+    <!--    Transparent -->
+    <color name="twhite">#00FFFFFF</color>
+    <color name="tgray">#00f7f7f7</color>
+</resources>
